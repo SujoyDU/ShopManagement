@@ -11,10 +11,14 @@ h2, h3 {
 }
 body {
   margin: 2em;
+  height: 100%;
 }
 body, input[text], button {
   color: #888;
   font-family: Cambria, Georgia;
+}
+.middle{
+  height:600px;
 }
 
 /*

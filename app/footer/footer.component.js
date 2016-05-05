@@ -9,20 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var footer_component_1 = require('./footer/footer.component');
-var tab_component_1 = require('./tab/tab.component');
-var AppComponent = (function () {
-    function AppComponent() {
+var FooterComponent = (function () {
+    function FooterComponent() {
     }
-    AppComponent = __decorate([
+    FooterComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: "\n\n    <h1>Shop Management</h1>\n    <h2>Shop Name</h2>\n    <p> Here you can see all the details</p>\n    <tabs></tabs>\n    <div class=\"middle\"></div>\n    <footer></footer>\n   ",
-            directives: [footer_component_1.FooterComponent, tab_component_1.TabComponent]
+            selector: 'footer',
+            template: "\n\n        <div>\n            Here is the footer\n        </div>\n    "
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], FooterComponent);
+    return FooterComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.FooterComponent = FooterComponent;
+//# sourceMappingURL=footer.component.js.map
